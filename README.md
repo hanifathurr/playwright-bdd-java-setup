@@ -27,7 +27,7 @@ Ensure you have the following installed:
 
 ### 2️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-repo/playwright-java-automation.git
+git clone https://github.com/your-repo/playwright-bdd-java-automation.git
 cd playwright-java-automation
 ```
 
