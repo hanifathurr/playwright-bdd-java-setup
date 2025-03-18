@@ -1,0 +1,219 @@
+2025-03-18 10:22:50 [INFO] c.b.p.u.c.PropertyFileReader - ✅ Loaded environment configuration: src/main/java/com/basesetup/playwright/utils/config/config-dev.properties
+2025-03-18 10:22:50 [INFO] c.b.p.h.Hooks - 🚀 Starting Scenario: User logs in with valid credentials
+2025-03-18 10:23:04 [INFO] c.b.p.u.m.PlaywrightManager - 🎭 Initialized Playwright with Browser: chromium | Headless: true
+2025-03-18 10:23:04 [INFO] c.b.p.u.m.PlaywrightManager - 🌐 New browser context created for thread: 1
+2025-03-18 10:23:04 [INFO] c.b.p.u.m.PlaywrightManager - 📄 New page created for thread: 1
+2025-03-18 10:23:04 [INFO] c.b.p.h.Hooks - 🌍 Navigating to base URL: https://www.saucedemo.com/v1/
+2025-03-18 10:23:07 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Username
+2025-03-18 10:23:07 [INFO] c.b.p.h.GeneralHelper - Typing 'standard_user' into Locator@internal:attr=[placeholder="Username"i]
+2025-03-18 10:23:07 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Password
+2025-03-18 10:23:07 [INFO] c.b.p.h.GeneralHelper - Typing 'password' into Locator@internal:attr=[placeholder="Password"i]
+2025-03-18 10:23:07 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by ID: #login-button
+2025-03-18 10:23:07 [INFO] c.b.p.h.GeneralHelper - Clicking element: Locator@#login-button
+2025-03-18 10:23:07 [INFO] c.b.p.h.Hooks - ✅ Scenario Passed: User logs in with valid credentials
+2025-03-18 10:23:07 [INFO] c.b.p.u.m.PlaywrightManager - ❌ Page closed for thread: 1
+2025-03-18 10:23:07 [INFO] c.b.p.u.m.PlaywrightManager - ❌ BrowserContext closed for thread: 1
+2025-03-18 10:23:07 [INFO] c.b.p.h.Hooks - 🛑 Closed browser context after scenario: User logs in with valid credentials
+2025-03-18 11:56:09 [INFO] c.b.p.u.c.PropertyFileReader - ✅ Loaded environment configuration: src/main/java/com/basesetup/playwright/utils/config/config-dev.properties
+2025-03-18 11:56:09 [INFO] c.b.p.h.Hooks - 🚀 Starting Scenario: User logs in with valid credentials
+2025-03-18 11:56:22 [INFO] c.b.p.u.m.PlaywrightManager - 🎭 Playwright Initialized | Browser: chromium | Headless: true
+2025-03-18 11:56:22 [INFO] c.b.p.u.m.PlaywrightManager - 🌐 New BrowserContext created for thread: 1
+2025-03-18 11:56:23 [INFO] c.b.p.u.m.PlaywrightManager - 📄 New Page created for thread: 1
+2025-03-18 11:56:23 [INFO] c.b.p.h.Hooks - 🌍 Navigating to base URL: https://www.saucedemo.com/v1/
+2025-03-18 11:56:26 [ERROR] c.b.p.h.Hooks - ❌ Failed to navigate to Base URL: https://www.saucedemo.com/v1/ | Error: Error {
+  message='net::ERR_CONNECTION_RESET at https://www.saucedemo.com/v1/
+  name='Error
+  stack='Error: net::ERR_CONNECTION_RESET at https://www.saucedemo.com/v1/
+    at FrameSession._navigate (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\chromium\crPage.js:496:35)
+    at async Frame._gotoAction (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\frames.js:539:28)
+}
+Call log:
+-   - navigating to "https://www.saucedemo.com/v1/", waiting until "load"
+
+2025-03-18 11:56:26 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Username
+2025-03-18 11:56:26 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 1/2 failed for Placeholder: Username | Error: Error {
+  message='Execution context was destroyed, most likely because of a navigation
+  name='Error
+  stack='Error:Execution context was destroyed, most likely because of a navigation
+Error
+    at captureRawStack (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\utils\stackTrace.js:50:17)
+    at LongStandingScope._race (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\utils\manualPromise.js:91:52)
+    at LongStandingScope.race (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\utils\manualPromise.js:84:17)
+    at FrameExecutionContext._raceAgainstContextDestroyed (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\javascript.js:50:40)
+    at FrameExecutionContext.rawEvaluateHandle (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\javascript.js:56:17)
+    at FrameExecutionContext.injectedScript (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\dom.js:101:42)
+    at FrameSelectors.resolveInjectedForSelector (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\frameSelectors.js:156:36)
+    at async FrameSelectors.queryCount (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\frameSelectors.js:71:22)
+    at async Frame.queryCount (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\frames.js:753:12)
+    at async FrameDispatcher.queryCount (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\dispatchers\frameDispatcher.js:136:14)
+    at async LongStandingScope._race (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\utils\manualPromise.js:96:14)
+    at async FrameDispatcher._handleCommand (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\dispatchers\dispatcher.js:96:14)
+    at async DispatcherConnection.dispatch (C:\Users\hanif\AppData\Local\Temp\playwright-java-3795128631080704329\package\lib\server\dispatchers\dispatcher.js:361:22)
+}
+2025-03-18 11:56:27 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Username
+2025-03-18 11:56:27 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 2/2 failed for Placeholder: Username | Error: Element not found: Placeholder: Username
+2025-03-18 11:56:27 [ERROR] c.b.p.l.BaseLocators - ❌ Final failure: Unable to locate Placeholder: Username
+2025-03-18 11:56:27 [INFO] c.b.p.h.GeneralHelper - ⌨️ Typing 'standard_user' into null
+2025-03-18 11:56:27 [ERROR] c.b.p.h.GeneralHelper - ❌ Failed to type into null: Cannot invoke "com.microsoft.playwright.Locator.fill(String)" because "locator" is null
+java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Locator.fill(String)" because "locator" is null
+	at com.basesetup.playwright.helpers.GeneralHelper.fillInput(GeneralHelper.java:42)
+	at com.basesetup.playwright.pages.login.LoginPO.enterUsername(LoginPO.java:17)
+	at com.basesetup.playwright.stepdefinitions.LoginStepDefs.userEntersUsernameAndPassword(LoginStepDefs.java:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:107)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:107)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:235)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:89)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:90)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:78)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:78)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+2025-03-18 11:56:27 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Password
+2025-03-18 11:56:27 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 1/2 failed for Placeholder: Password | Error: Element not found: Placeholder: Password
+2025-03-18 11:56:28 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by Placeholder: Password
+2025-03-18 11:56:28 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 2/2 failed for Placeholder: Password | Error: Element not found: Placeholder: Password
+2025-03-18 11:56:28 [ERROR] c.b.p.l.BaseLocators - ❌ Final failure: Unable to locate Placeholder: Password
+2025-03-18 11:56:28 [INFO] c.b.p.h.GeneralHelper - ⌨️ Typing 'password' into null
+2025-03-18 11:56:28 [ERROR] c.b.p.h.GeneralHelper - ❌ Failed to type into null: Cannot invoke "com.microsoft.playwright.Locator.fill(String)" because "locator" is null
+java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Locator.fill(String)" because "locator" is null
+	at com.basesetup.playwright.helpers.GeneralHelper.fillInput(GeneralHelper.java:42)
+	at com.basesetup.playwright.pages.login.LoginPO.enterPassword(LoginPO.java:21)
+	at com.basesetup.playwright.stepdefinitions.LoginStepDefs.userEntersUsernameAndPassword(LoginStepDefs.java:25)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:107)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:107)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:235)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:89)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:90)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:78)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:78)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+2025-03-18 11:56:28 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by ID: #login-button
+2025-03-18 11:56:28 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 1/2 failed for ID: #login-button | Error: Element not found: ID: #login-button
+2025-03-18 11:56:29 [INFO] c.b.p.l.BaseLocators - 🔍 Locating element by ID: #login-button
+2025-03-18 11:56:29 [WARN] c.b.p.l.BaseLocators - ⚠️ Attempt 2/2 failed for ID: #login-button | Error: Element not found: ID: #login-button
+2025-03-18 11:56:29 [ERROR] c.b.p.l.BaseLocators - ❌ Final failure: Unable to locate ID: #login-button
+2025-03-18 11:56:29 [INFO] c.b.p.h.GeneralHelper - 🖱️ Clicking element: null
+2025-03-18 11:56:29 [ERROR] c.b.p.h.GeneralHelper - ❌ Failed to click element null: Cannot invoke "com.microsoft.playwright.Locator.click()" because "locator" is null
+java.lang.NullPointerException: Cannot invoke "com.microsoft.playwright.Locator.click()" because "locator" is null
+	at com.basesetup.playwright.helpers.GeneralHelper.click(GeneralHelper.java:27)
+	at com.basesetup.playwright.pages.login.LoginPO.clickLogin(LoginPO.java:25)
+	at com.basesetup.playwright.stepdefinitions.LoginStepDefs.userEntersUsernameAndPassword(LoginStepDefs.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$6(Runtime.java:107)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.Runtime.lambda$executePickle$7(Runtime.java:107)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at io.cucumber.core.runtime.Runtime$SameThreadExecutorService.execute(Runtime.java:235)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+	at io.cucumber.core.runtime.Runtime.lambda$runFeatures$3(Runtime.java:89)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.SliceOps$1$1.accept(SliceOps.java:200)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.tryAdvance(ArrayList.java:1602)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at io.cucumber.core.runtime.Runtime.runFeatures(Runtime.java:90)
+	at io.cucumber.core.runtime.Runtime.lambda$run$0(Runtime.java:78)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runFeatures$6(CucumberExecutionContext.java:147)
+	at io.cucumber.core.runtime.CucumberExecutionContext.execute(CucumberExecutionContext.java:162)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runFeatures(CucumberExecutionContext.java:145)
+	at io.cucumber.core.runtime.Runtime.run(Runtime.java:78)
+	at io.cucumber.core.cli.Main.run(Main.java:87)
+	at io.cucumber.core.cli.Main.main(Main.java:30)
+2025-03-18 11:56:29 [INFO] c.b.p.h.Hooks - ✅ Scenario Passed: User logs in with valid credentials
+2025-03-18 11:56:29 [INFO] c.b.p.u.m.PlaywrightManager - ❌ Page closed for thread: 1
+2025-03-18 11:56:29 [INFO] c.b.p.u.m.PlaywrightManager - ❌ BrowserContext closed for thread: 1
+2025-03-18 11:56:29 [INFO] c.b.p.h.Hooks - 🛑 Closed browser context after scenario: User logs in with valid credentials
